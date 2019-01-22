@@ -1,18 +1,74 @@
 import math
-from bitarray import bitarray
+#from bitarray import bitarray
 
 
-def lz77_compressor(file_name):
+def get_window(data, val, window_size):
+    n = val - window_size
+    if n < 0:
+        #print(val)
+        return data[:val]
+    return data[n:val]
+
+
+
+
+def lz77_compressor(file_name, window_size):
     try:
-        input_file = open(file_name, 'rb')
+        input_file = open(file_name, 'r')
         data = input_file.read()
     except IOError:
         print('Could not open input file ...')
 
     print(data)
 
+    i = 0
+
+    final_list = []
+
+    while i < len(data):
+        orginal_i = i
+        found = False
+        curr = data[i]
+        count = 0
+        lookback = 0
+
+        window = get_window(data, i, window_size)
+        window_location = 0
+
+        for j in range(len(window)):
+            if window[j] == curr:
+                lookback = len(window) - j
+                window_location = j
+                found = True
+                break
+
+        if found:
+            count += 1
+            curr = data[i+1]
+            i += 1
+            while found:
+                window_index = window_location + count
+                data_index = orginal_i + count
+                if window_index >= len(window):
+
+                    break
+                if data_index >= len(data):
+
+                    curr = ''
+                    break
+                if window[window_index] == data[data_index]:
+                    count += 1
+                    i += 1
+                    continue
+
+                found = False
 
 
 
+        new_tuple = (lookback, count, curr)
+        final_list.append(new_tuple)
+        print(new_tuple)
+        i += 1
+    print(final_list)
 
-lz77_compressor("easy_lecture_example.txt")
+lz77_compressor("easy_lecture_example.txt", 12)
