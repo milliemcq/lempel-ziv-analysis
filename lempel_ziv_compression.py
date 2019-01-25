@@ -2,6 +2,17 @@ import math
 #from bitarray import bitarray
 
 
+def convert_to_bitarray(list_tuples, window_size):
+    length = math.log(window_size)
+    array = []
+    for item in list_tuples:
+        array.append(bin(item[0]))
+        array.append(bin(item[1]))
+        array.append(bin(item[2]))
+
+
+
+
 def get_window(data, val, window_size):
     n = val - window_size
     if n < 0:
@@ -14,7 +25,7 @@ def get_window(data, val, window_size):
 
 def lz77_compressor(file_name, window_size):
     try:
-        input_file = open(file_name, 'r')
+        input_file = open(file_name, 'rb')
         data = input_file.read()
     except IOError:
         print('Could not open input file ...')
