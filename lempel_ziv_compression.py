@@ -1,4 +1,5 @@
 import math
+import time
 #from bitarray import bitarray
 
 
@@ -82,4 +83,8 @@ def lz77_compressor(file_name, window_size):
         i += 1
     print(final_list)
 
+
+start = time.time()
 lz77_compressor("easy_lecture_example.txt", 12)
+finish = time.time()
+print("Time taken = " + str(finish - start))
