@@ -17,13 +17,18 @@ def lz77_decompressor(string_to_decompress):
     location = 0
 
     while location < len(string_to_decompress):
-        first_tuple = ()
-        first = string_to_decompress[:location+4]
+
+        first = int(string_to_decompress[location:location+4], 2)
         location += 4
-        second = string_to_decompress[:location + 4]
+        second = int(string_to_decompress[location:location + 4], 2)
         location += 4
-        third = string_to_decompress[:location + 8]
+        third = int(string_to_decompress[location:location + 8], 2)
         location += 8
+
+        first_tuple = (first, second, third)
+        print(first_tuple)
+
+
 
 
     return "not finished"
@@ -35,6 +40,6 @@ def lz77_decompressor(string_to_decompress):
 
 
 
-string_to_decompress = "00010000000000001000001000000001000010000000001010010001100011000011010100011000100011101000100000"
+string_to_decompress = "00010000000000000100000100000000010000100000000001010010001100010100001101010001010001000111010000100000"
 
 print(lz77_decompressor(string_to_decompress))
