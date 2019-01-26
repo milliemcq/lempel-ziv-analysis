@@ -22,7 +22,8 @@ def lz77_decompressor(string_to_decompress):
         location += 4
         second = string_to_decompress[:location + 4]
         location += 4
-        third =
+        third = string_to_decompress[:location + 8]
+        location += 8
 
 
     return "not finished"
