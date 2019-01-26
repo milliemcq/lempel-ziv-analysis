@@ -12,7 +12,7 @@ def convert_to_bitarray(list_tuples, window_size):
         mini_array = ""
         mini_array = mini_array + "{0:b}".format(item[0]).zfill(length)
         mini_array = mini_array + "{0:b}".format(item[1]).zfill(length)
-        mini_array = mini_array + "{0:b}".format(item[2]).zfill(7)
+        mini_array = mini_array + "{0:b}".format(item[2]).zfill(8)
         print(mini_array)
         big_array = big_array + mini_array
     return big_array

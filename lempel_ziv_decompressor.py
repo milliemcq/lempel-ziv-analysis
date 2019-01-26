@@ -8,12 +8,23 @@ def lz77_decompressor(string_to_decompress):
         data = input_file.read()
     except IOError:
         print('Could not open input file ...')"""
-    print(string_to_decompress)
+
     window = string_to_decompress[:8]
     window_size = int(window, 2)
+    string_to_decompress = string_to_decompress[8:]
+    window_bit_length = math.log(window_size, 2)
 
-    print(string_to_decompress)
-    print(window)
+    location = 0
+
+    while location < len(string_to_decompress):
+        first_tuple = ()
+        first = string_to_decompress[:location+4]
+        location += 4
+        second = string_to_decompress[:location + 4]
+        location += 4
+        third =
+
+
     return "not finished"
 
 
