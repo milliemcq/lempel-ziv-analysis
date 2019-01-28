@@ -27,7 +27,7 @@ def get_window(data, val, window_size):
 
 
 
-def lz77_compressor(file_name, window_size):
+def lz77_compressor(file_name, window_size, lookahead_buffer):
     try:
         input_file = open(file_name, 'rb')
         data = input_file.read()
@@ -61,7 +61,8 @@ def lz77_compressor(file_name, window_size):
             count += 1
             curr = data[i+1]
             i += 1
-            while found:
+            curr_lookahead = 0
+            while found and curr_lookahead < lookahead_buffer:
                 window_index = window_location + count
                 data_index = orginal_i + count
                 if window_index >= len(window):
@@ -74,6 +75,7 @@ def lz77_compressor(file_name, window_size):
                 if window[window_index] == data[data_index]:
                     count += 1
                     i += 1
+                    lookahead_buffer += 1
                     continue
 
                 found = False
@@ -90,7 +92,7 @@ def lz77_compressor(file_name, window_size):
 
 to_transform = []
 start = time.time()
-to_transform = lz77_compressor("longer_lecture_example.txt", 150)
+to_transform = lz77_compressor("longer_lecture_example.txt", 150, 50)
 final_bit_string = convert_to_bitarray(to_transform, 150)
 
 
