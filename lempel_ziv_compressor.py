@@ -7,7 +7,7 @@ def convert_to_bitarray(list_tuples, window_size):
     length = int(math.log(window_size,2))
     print("Should say 4: " + str(length))
     big_array = ""
-    big_array = big_array + "{0:b}".format(16).zfill(8)
+    big_array = big_array + "{0:b}".format(window_size).zfill(8)
     for item in list_tuples:
         mini_array = ""
         mini_array = mini_array + "{0:b}".format(item[0]).zfill(length)
@@ -16,10 +16,6 @@ def convert_to_bitarray(list_tuples, window_size):
         print(mini_array)
         big_array = big_array + mini_array
     return big_array
-
-
-def final_bit_length(list_tuples, window_size):
-    pass
 
 def get_window(data, val, window_size):
     n = val - window_size
@@ -94,8 +90,12 @@ def lz77_compressor(file_name, window_size):
 
 to_transform = []
 start = time.time()
-to_transform = lz77_compressor("easy_lecture_example.txt", 16)
-final_bit_string = convert_to_bitarray(to_transform, 16)
+to_transform = lz77_compressor("longer_lecture_example.txt", 150)
+final_bit_string = convert_to_bitarray(to_transform, 150)
+
+
+
+
 print(final_bit_string)
 
 
