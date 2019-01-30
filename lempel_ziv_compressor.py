@@ -5,7 +5,7 @@ import time
 
 def convert_to_bitarray(list_tuples, window_size):
     length = int(math.log(window_size,2)) + 1
-    print("Length = " + str(length))
+    #print("Length = " + str(length))
     big_array = ""
     big_array = big_array + "{0:b}".format(window_size).zfill(16)
     for item in list_tuples:
@@ -47,7 +47,7 @@ def lz77_compressor(file_name, window_size, lookahead_buffer):
         print('Could not open input file ...')
 
     #print(data)
-    print(len(data))
+    #print(len(data))
     initial_data_length = len(data) * 8
     print("Initial Data Length: " + str(initial_data_length))
     i = 0
@@ -110,6 +110,8 @@ def lz77_compressor(file_name, window_size, lookahead_buffer):
 
     final_bit_string = convert_to_bitarray(final_list, window_size)
     #print(final_bit_string)
+    print("Final Data Length: " + str(len(final_bit_string)))
+    print("Compression Ratio = " + str(initial_data_length/len(final_bit_string)))
     return final_bit_string
 
 
