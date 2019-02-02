@@ -4,19 +4,19 @@ import time
 import sys
 
 
-sys.stdout = open("output.txt", "w")
+sys.stdout = open("1984WindowOutputTxt.txt", "w")
 print("test sys.stdout")
 
 i = 5000
 
-for j in range(1, 1000, 10):
+for j in range(1, 20000, 100):
 
     print("-----------------------------NEW-------------------------")
-    print("Window: " + str(i))
-    print("Lookahead: " + str(j))
+    print("Window: " + str(j))
+    print("Lookahead: " + str(i))
     start = 0
     start = time.time()
-    lz77_compressor("1984.txt", i, j)
+    lz77_compressor("1984.txt", j, i)
     finish = time.time()
     print("Time taken = " + str(finish - start))
 
