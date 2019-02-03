@@ -1,8 +1,8 @@
 import math
 import time
 #import bitarray
-
 """
+
 def convert_to_bitarray(list_tuples, window_size):
     length = int(math.log(window_size,2)) + 1
     #print("Length = " + str(length))
@@ -112,11 +112,14 @@ def lz77_compressor(file_name, window_size, lookahead_buffer):
     #print(final_bit_string)
     print("Final Data Length: " + str(len(final_bit_string)))
     print("Compression Ratio = " + str(initial_data_length/len(final_bit_string)))
-    return final_bit_string """
+    return final_bit_string"""
 
 
-with open("img.png", "rb") as imageFile:
+with open("dogsmall.jpg", "rb") as imageFile:
   f = imageFile.read()
   b = bytearray(f)
 
-print b[0]
+print(f)
+print(b)
+b.decode('ascii')
+print(b)
