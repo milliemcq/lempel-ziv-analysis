@@ -12,6 +12,17 @@ def get_string(current_string, back_space, length, final_char):
     #print(return_string)
     return return_string
 
+def get_string_image(current_string, back_space, length, final_char):
+    return_string = ""
+    start = len(current_string) - back_space
+    end = len(current_string) - back_space + length
+    return_string += current_string[start:end]
+
+    return_string += str(final_char)
+    #print(return_string)
+    return return_string
+
+
 
 
 def decompress_from_tuples(list_of_tuples, window_size):
@@ -20,14 +31,14 @@ def decompress_from_tuples(list_of_tuples, window_size):
         #print("final string: " + str(final_string))
         #print(item)
         if item[0] == 0:
-            final_string += str(chr(item[2]))
+            final_string += str(item[2])
         else:
-            final_string += get_string(final_string, item[0], item[1], item[2])
+            final_string += get_string_image(final_string, item[0], item[1], item[2])
     return final_string
 
 
 
-def lz77_decompressor(string_to_decompress):
+def lz77_image_decompressor(string_to_decompress):
     """try:
         input_file = open(file_name, 'rb')
         data = input_file.read()

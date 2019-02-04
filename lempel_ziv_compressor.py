@@ -42,7 +42,7 @@ def lz77_compressor(file_name, window_size, lookahead_buffer):
     try:
         input_file = open(file_name, 'rb')
         data = input_file.read()
-        print(data)
+        #print(data)
     except IOError:
         print('Could not open input file ...')
 

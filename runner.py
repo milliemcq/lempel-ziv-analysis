@@ -4,20 +4,24 @@ import time
 import sys
 
 
-sys.stdout = open("1984WindowOutputTxt.txt", "w")
+files = ['txt_files/introductionCDEnglish.txt', 'txt_files/introductionCDFrench.txt', 'txt_files/variabilityCDEnglish.txt', 'txt_files/variabilityCDFrench.txt', 'txt_files/natureCDEnglish.txt', 'txt_files/natureCDFrench.txt']
+
+sys.stdout = open("outputs/FrenchEnglishOutputTxt.txt", "w")
 print("test sys.stdout")
 
-i = 5000
+for item in files:
+    print("####################################### NEW FILE ###################################")
+    i = 100
 
-for j in range(1, 20000, 100):
+    for j in range(1, 5000, 100):
 
-    print("-----------------------------NEW-------------------------")
-    print("Window: " + str(j))
-    print("Lookahead: " + str(i))
-    start = 0
-    start = time.time()
-    lz77_compressor("1984.txt", j, i)
-    finish = time.time()
-    print("Time taken = " + str(finish - start))
+        print("-----------------------------NEW-------------------------")
+        print("Window: " + str(j))
+        print("Lookahead: " + str(i))
+        start = 0
+        start = time.time()
+        lz77_compressor(item, j, i)
+        finish = time.time()
+        print("Time taken = " + str(finish - start))
 
 

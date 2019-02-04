@@ -120,6 +120,7 @@ with open("dogsmall.jpg", "rb") as imageFile:
   b = bytearray(f)
 
 print(f)
-print(b)
-b.decode('ascii')
+print(b[3])
+
+
 print(b)
