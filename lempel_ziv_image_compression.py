@@ -113,6 +113,7 @@ def lz77_image_compressor(file_name, window_size, lookahead_buffer):
   # print(final_bit_string)
   # print("Final Data Length: " + str(len(final_bit_string)))
   print("Compression Ratio = " + str(initial_data_length / len(final_bit_string)))
+  print(final_bit_string)
   return final_bit_string
 
 

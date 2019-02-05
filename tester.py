@@ -7,8 +7,8 @@ import sys
 
 
 
-print(lz77_decompressor(lz77_compressor("txt_files/poem.txt", 500, 500)))
+print(lz77_decompressor(lz77_compressor("txt_files/poem.txt", 500, 255)))
 
-print(lz77_image_decompressor(lz77_image_compressor("image_files/dogsmall.jpg", 500, 500)))
+print(lz77_image_decompressor(lz77_image_compressor("image_files/dogsmall.jpg", 500, 255)))
 
 
