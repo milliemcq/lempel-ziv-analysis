@@ -17,8 +17,6 @@ def get_string(current_string, back_space, length, final_char):
 def decompress_from_tuples(list_of_tuples, window_size):
     final_string = ""
     for item in list_of_tuples:
-        #print("final string: " + str(final_string))
-        #print(item)
         if item[0] == 0:
             final_string += str(chr(item[2]))
         else:

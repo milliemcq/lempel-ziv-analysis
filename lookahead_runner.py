@@ -4,7 +4,8 @@ import time
 import sys
 
 
-sys.stdout = open("poem.txt", "w")
+sys.stdout = open("", "w")
+sys.stdout = open("", "w")
 print("test sys.stdout")
 
 i = 5000
@@ -16,6 +17,6 @@ for j in range(1, 300, 10):
     print("Lookahead: " + str(j))
     start = 0
     start = time.time()
-    lz77_compressor("txt_files/poem.txt", i, j)
+    lz77_compressor("", i, j)
     finish = time.time()
     print("Time taken = " + str(finish - start))

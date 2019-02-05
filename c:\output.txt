@@ -1,0 +1,1783 @@
+test sys.stdout
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 1
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.0820930004119873
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 101
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.08055496215820312
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 201
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.08338022232055664
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 301
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.0768580436706543
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 401
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.0744791030883789
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 501
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07508087158203125
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 601
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.0821077823638916
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 701
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.14287304878234863
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 801
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.10796403884887695
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 901
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.09695005416870117
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 1001
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.12317585945129395
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 1101
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.09911394119262695
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 1201
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.08244109153747559
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 1301
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.08417701721191406
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 1401
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.08511209487915039
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 1501
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.0794219970703125
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 1601
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.08048105239868164
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 1701
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07944297790527344
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 1801
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07226991653442383
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 1901
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07696104049682617
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 2001
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07798314094543457
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 2101
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07393193244934082
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 2201
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.08459901809692383
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 2301
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.09132695198059082
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 2401
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07942390441894531
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 2501
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.0842750072479248
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 2601
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.0749049186706543
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 2701
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07740187644958496
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 2801
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07753777503967285
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 2901
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07391095161437988
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 3001
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07547378540039062
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 3101
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.0744321346282959
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 3201
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07732081413269043
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 3301
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07650208473205566
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 3401
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07616686820983887
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 3501
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07594799995422363
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 3601
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.06984496116638184
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 3701
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07313799858093262
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 3801
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07625293731689453
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 3901
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07374811172485352
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 4001
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07564496994018555
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 4101
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07710099220275879
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 4201
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07945394515991211
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 4301
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07788705825805664
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 4401
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07825207710266113
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 4501
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.0743112564086914
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 4601
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07451081275939941
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 4701
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07529067993164062
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 4801
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07473492622375488
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 4901
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07483768463134766
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 5001
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07308292388916016
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 5101
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07915377616882324
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 5201
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07169723510742188
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 5301
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07605600357055664
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 5401
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07769775390625
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 5501
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07690715789794922
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 5601
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07761812210083008
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 5701
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07677793502807617
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 5801
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07383608818054199
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 5901
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.08645224571228027
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 6001
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07616782188415527
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 6101
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.089691162109375
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 6201
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.11533904075622559
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 6301
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.12071418762207031
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 6401
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.09772896766662598
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 6501
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.08594775199890137
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 6601
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.06916594505310059
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 6701
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.08450818061828613
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 6801
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.08948516845703125
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 6901
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.08215594291687012
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 7001
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07176375389099121
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 7101
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07531905174255371
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 7201
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.0744178295135498
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 7301
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07543611526489258
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 7401
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.0767056941986084
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 7501
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07572293281555176
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 7601
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.0796051025390625
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 7701
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07574772834777832
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 7801
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07411599159240723
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 7901
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.08851790428161621
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 8001
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.10288095474243164
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 8101
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.08154010772705078
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 8201
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.0899660587310791
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 8301
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.08330011367797852
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 8401
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.08310198783874512
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 8501
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07882118225097656
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 8601
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07947206497192383
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 8701
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07619690895080566
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 8801
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07660603523254395
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 8901
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07615804672241211
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 9001
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07572102546691895
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 9101
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07422304153442383
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 9201
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07522010803222656
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 9301
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.08305215835571289
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 9401
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07808899879455566
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 9501
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07828402519226074
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 9601
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07822203636169434
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 9701
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07836580276489258
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 9801
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07788586616516113
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 9901
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.08081698417663574
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 10001
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.0840599536895752
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 10101
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.08440613746643066
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 10201
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.08245491981506348
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 10301
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07916688919067383
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 10401
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07825708389282227
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 10501
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.0798492431640625
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 10601
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07809281349182129
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 10701
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07844829559326172
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 10801
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07723188400268555
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 10901
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.08071303367614746
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 11001
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07462286949157715
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 11101
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.06940221786499023
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 11201
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07470917701721191
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 11301
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.08131003379821777
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 11401
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07790994644165039
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 11501
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07537412643432617
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 11601
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.0827019214630127
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 11701
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.08508896827697754
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 11801
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.078125
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 11901
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07954096794128418
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 12001
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07697010040283203
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 12101
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07429194450378418
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 12201
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.0752100944519043
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 12301
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07426905632019043
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 12401
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07691287994384766
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 12501
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07544422149658203
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 12601
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07565736770629883
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 12701
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07378721237182617
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 12801
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07358932495117188
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 12901
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07304120063781738
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 13001
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07468008995056152
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 13101
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07674431800842285
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 13201
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07595396041870117
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 13301
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07411575317382812
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 13401
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07202529907226562
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 13501
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.06899309158325195
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 13601
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07000088691711426
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 13701
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07357406616210938
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 13801
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.08126997947692871
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 13901
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07793784141540527
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 14001
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07763504981994629
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 14101
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07929801940917969
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 14201
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07286310195922852
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 14301
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07001399993896484
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 14401
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07190179824829102
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 14501
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07065129280090332
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 14601
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07003402709960938
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 14701
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07654309272766113
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 14801
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07260322570800781
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 14901
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07508611679077148
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 15001
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07297396659851074
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 15101
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07229208946228027
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 15201
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07998490333557129
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 15301
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.0788121223449707
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 15401
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07985401153564453
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 15501
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07722282409667969
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 15601
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.0717630386352539
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 15701
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.0708467960357666
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 15801
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07211017608642578
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 15901
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07468605041503906
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 16001
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07273483276367188
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 16101
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07393383979797363
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 16201
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07433700561523438
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 16301
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07422804832458496
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 16401
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07285666465759277
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 16501
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.0695490837097168
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 16601
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07046890258789062
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 16701
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07143783569335938
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 16801
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07256603240966797
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 16901
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07300996780395508
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 17001
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07284188270568848
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 17101
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07326483726501465
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 17201
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07338213920593262
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 17301
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07308816909790039
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 17401
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07349300384521484
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 17501
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07585477828979492
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 17601
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.0742650032043457
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 17701
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07329010963439941
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 17801
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07315802574157715
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 17901
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07521319389343262
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 18001
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07577800750732422
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 18101
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07293581962585449
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 18201
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07290196418762207
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 18301
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07899904251098633
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 18401
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.08712315559387207
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 18501
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07847881317138672
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 18601
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.08253097534179688
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 18701
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07599592208862305
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 18801
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.0751030445098877
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 18901
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07271027565002441
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 19001
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07837605476379395
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 19101
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.08139538764953613
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 19201
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07919168472290039
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 19301
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07575702667236328
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 19401
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.0760807991027832
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 19501
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07690978050231934
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 19601
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07967519760131836
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 19701
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07671213150024414
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 19801
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.08559799194335938
+-----------------------------NEW-------------------------
+Window: 1
+Lookahead: 19901
+Initial Data Length: 284448
+Final Data Length: 349356
+Compression Ratio = 0.8142067117782434
+Time taken = 0.07767868041992188
+-----------------------------NEW-------------------------
+Window: 101
+Lookahead: 1
+Initial Data Length: 284448
+Final Data Length: 406158
+Compression Ratio = 0.700338291994741
+Time taken = 0.2946288585662842
+-----------------------------NEW-------------------------
+Window: 101
+Lookahead: 101
+Initial Data Length: 284448
+Final Data Length: 295102
+Compression Ratio = 0.9638972287548034
+Time taken = 0.2543971538543701
+-----------------------------NEW-------------------------
+Window: 101
+Lookahead: 201
+Initial Data Length: 284448
+Final Data Length: 295102
+Compression Ratio = 0.9638972287548034
+Time taken = 0.2470078468322754
+-----------------------------NEW-------------------------
+Window: 101
+Lookahead: 301
+Initial Data Length: 284448
+Final Data Length: 295102
+Compression Ratio = 0.9638972287548034
+Time taken = 0.25142383575439453
+-----------------------------NEW-------------------------
+Window: 101
+Lookahead: 401
+Initial Data Length: 284448
+Final Data Length: 295102
+Compression Ratio = 0.9638972287548034
+Time taken = 0.24933099746704102
+-----------------------------NEW-------------------------
+Window: 101
+Lookahead: 501
+Initial Data Length: 284448
+Final Data Length: 295102
+Compression Ratio = 0.9638972287548034
+Time taken = 0.2588169574737549
+-----------------------------NEW-------------------------
+Window: 101
+Lookahead: 601
+Initial Data Length: 284448
+Final Data Length: 295102
+Compression Ratio = 0.9638972287548034
+Time taken = 0.24658513069152832
+-----------------------------NEW-------------------------
+Window: 101
+Lookahead: 701
+Initial Data Length: 284448
+Final Data Length: 295102
+Compression Ratio = 0.9638972287548034
+Time taken = 0.2515230178833008
+-----------------------------NEW-------------------------
+Window: 101
+Lookahead: 801
+Initial Data Length: 284448
+Final Data Length: 295102
+Compression Ratio = 0.9638972287548034
+Time taken = 0.24538588523864746
+-----------------------------NEW-------------------------
+Window: 101
+Lookahead: 901
+Initial Data Length: 284448
+Final Data Length: 295102
+Compression Ratio = 0.9638972287548034
+Time taken = 0.2581911087036133
+-----------------------------NEW-------------------------
+Window: 101
+Lookahead: 1001
+Initial Data Length: 284448
+Final Data Length: 295102
+Compression Ratio = 0.9638972287548034
+Time taken = 0.24526000022888184
+-----------------------------NEW-------------------------
+Window: 101
+Lookahead: 1101
+Initial Data Length: 284448
+Final Data Length: 295102
+Compression Ratio = 0.9638972287548034
+Time taken = 0.2322540283203125
+-----------------------------NEW-------------------------
+Window: 101
+Lookahead: 1201
+Initial Data Length: 284448
+Final Data Length: 295102
+Compression Ratio = 0.9638972287548034
+Time taken = 0.22844386100769043
+-----------------------------NEW-------------------------
+Window: 101
+Lookahead: 1301
+Initial Data Length: 284448
+Final Data Length: 295102
+Compression Ratio = 0.9638972287548034
+Time taken = 0.2454371452331543
+-----------------------------NEW-------------------------
+Window: 101
+Lookahead: 1401
+Initial Data Length: 284448
+Final Data Length: 295102
+Compression Ratio = 0.9638972287548034
+Time taken = 0.22641992568969727
+-----------------------------NEW-------------------------
+Window: 101
+Lookahead: 1501
+Initial Data Length: 284448
+Final Data Length: 295102
+Compression Ratio = 0.9638972287548034
+Time taken = 0.22975420951843262
+-----------------------------NEW-------------------------
+Window: 101
+Lookahead: 1601
+Initial Data Length: 284448
+Final Data Length: 295102
+Compression Ratio = 0.9638972287548034
+Time taken = 0.23085594177246094
+-----------------------------NEW-------------------------
+Window: 101
+Lookahead: 1701
+Initial Data Length: 284448
+Final Data Length: 295102
+Compression Ratio = 0.9638972287548034
+Time taken = 0.2649390697479248
+-----------------------------NEW-------------------------
+Window: 101
+Lookahead: 1801
+Initial Data Length: 284448
+Final Data Length: 295102
+Compression Ratio = 0.9638972287548034
+Time taken = 0.2494039535522461
+-----------------------------NEW-------------------------
+Window: 101
+Lookahead: 1901
+Initial Data Length: 284448
+Final Data Length: 295102
+Compression Ratio = 0.9638972287548034
+Time taken = 0.2816791534423828
+-----------------------------NEW-------------------------
+Window: 101
+Lookahead: 2001
+Initial Data Length: 284448
+Final Data Length: 295102
+Compression Ratio = 0.9638972287548034
+Time taken = 0.24740076065063477
+-----------------------------NEW-------------------------
+Window: 101
+Lookahead: 2101
+Initial Data Length: 284448
+Final Data Length: 295102
+Compression Ratio = 0.9638972287548034
+Time taken = 0.2432398796081543
+-----------------------------NEW-------------------------
+Window: 101
+Lookahead: 2201
+Initial Data Length: 284448
+Final Data Length: 295102
+Compression Ratio = 0.9638972287548034
+Time taken = 0.22669506072998047
+-----------------------------NEW-------------------------
+Window: 101
+Lookahead: 2301
+Initial Data Length: 284448
+Final Data Length: 295102
+Compression Ratio = 0.9638972287548034
+Time taken = 0.23268771171569824
+-----------------------------NEW-------------------------
+Window: 101
+Lookahead: 2401
+Initial Data Length: 284448
+Final Data Length: 295102
+Compression Ratio = 0.9638972287548034
+Time taken = 0.23352789878845215
+-----------------------------NEW-------------------------
+Window: 101
+Lookahead: 2501
+Initial Data Length: 284448
+Final Data Length: 295102
+Compression Ratio = 0.9638972287548034
+Time taken = 0.2464141845703125
+-----------------------------NEW-------------------------
+Window: 101
+Lookahead: 2601
+Initial Data Length: 284448
+Final Data Length: 295102
+Compression Ratio = 0.9638972287548034
+Time taken = 0.24122333526611328
+-----------------------------NEW-------------------------
+Window: 101
+Lookahead: 2701
+Initial Data Length: 284448
+Final Data Length: 295102
+Compression Ratio = 0.9638972287548034
+Time taken = 0.24702811241149902
+-----------------------------NEW-------------------------
+Window: 101
+Lookahead: 2801
+Initial Data Length: 284448
+Final Data Length: 295102
+Compression Ratio = 0.9638972287548034
+Time taken = 0.22813010215759277
+-----------------------------NEW-------------------------
+Window: 101
+Lookahead: 2901
+Initial Data Length: 284448
+Final Data Length: 295102
+Compression Ratio = 0.9638972287548034
+Time taken = 0.23203778266906738
+-----------------------------NEW-------------------------
+Window: 101
+Lookahead: 3001
+Initial Data Length: 284448
+Final Data Length: 295102
+Compression Ratio = 0.9638972287548034
+Time taken = 0.25377702713012695
+-----------------------------NEW-------------------------
+Window: 101
+Lookahead: 3101
+Initial Data Length: 284448
+Final Data Length: 295102
+Compression Ratio = 0.9638972287548034
+Time taken = 0.24553513526916504
+-----------------------------NEW-------------------------
+Window: 101
+Lookahead: 3201
+Initial Data Length: 284448
+Final Data Length: 295102
+Compression Ratio = 0.9638972287548034
+Time taken = 0.24780583381652832
+-----------------------------NEW-------------------------
+Window: 101
+Lookahead: 3301
+Initial Data Length: 284448
+Final Data Length: 295102
+Compression Ratio = 0.9638972287548034
+Time taken = 0.24998688697814941
+-----------------------------NEW-------------------------
+Window: 101
+Lookahead: 3401
+Initial Data Length: 284448
+Final Data Length: 295102
+Compression Ratio = 0.9638972287548034
+Time taken = 0.24990272521972656
+-----------------------------NEW-------------------------
+Window: 101
+Lookahead: 3501
+Initial Data Length: 284448
+Final Data Length: 295102
+Compression Ratio = 0.9638972287548034
+Time taken = 0.3663671016693115
+-----------------------------NEW-------------------------
+Window: 101
+Lookahead: 3601
+Initial Data Length: 284448
+Final Data Length: 295102
+Compression Ratio = 0.9638972287548034
+Time taken = 0.25623202323913574
+-----------------------------NEW-------------------------
+Window: 101
+Lookahead: 3701
+Initial Data Length: 284448
+Final Data Length: 295102
+Compression Ratio = 0.9638972287548034
+Time taken = 0.2443389892578125
+-----------------------------NEW-------------------------
+Window: 101
+Lookahead: 3801
+Initial Data Length: 284448
+Final Data Length: 295102
+Compression Ratio = 0.9638972287548034
+Time taken = 0.22870683670043945
+-----------------------------NEW-------------------------
+Window: 101
+Lookahead: 3901
+Initial Data Length: 284448
+Final Data Length: 295102
+Compression Ratio = 0.9638972287548034
+Time taken = 0.2655370235443115
+-----------------------------NEW-------------------------
+Window: 101
+Lookahead: 4001
+Initial Data Length: 284448
+Final Data Length: 295102
+Compression Ratio = 0.9638972287548034
+Time taken = 0.33776211738586426
+-----------------------------NEW-------------------------
+Window: 101
+Lookahead: 4101
+Initial Data Length: 284448
+Final Data Length: 295102
+Compression Ratio = 0.9638972287548034
+Time taken = 0.2980668544769287
+-----------------------------NEW-------------------------
+Window: 101
+Lookahead: 4201
+Initial Data Length: 284448
+Final Data Length: 295102
+Compression Ratio = 0.9638972287548034
+Time taken = 0.27771425247192383
+-----------------------------NEW-------------------------
+Window: 101
+Lookahead: 4301
+Initial Data Length: 284448
+Final Data Length: 295102
+Compression Ratio = 0.9638972287548034
+Time taken = 0.2376718521118164
+-----------------------------NEW-------------------------
+Window: 101
+Lookahead: 4401
+Initial Data Length: 284448
+Final Data Length: 295102
+Compression Ratio = 0.9638972287548034
+Time taken = 0.23369193077087402
+-----------------------------NEW-------------------------
+Window: 101
+Lookahead: 4501
+Initial Data Length: 284448
+Final Data Length: 295102
+Compression Ratio = 0.9638972287548034
+Time taken = 0.22631406784057617
+-----------------------------NEW-------------------------
+Window: 101
+Lookahead: 4601
+Initial Data Length: 284448
+Final Data Length: 295102
+Compression Ratio = 0.9638972287548034
+Time taken = 0.2221989631652832
+-----------------------------NEW-------------------------
+Window: 101
+Lookahead: 4701
+Initial Data Length: 284448
+Final Data Length: 295102
+Compression Ratio = 0.9638972287548034
+Time taken = 0.22971796989440918
+-----------------------------NEW-------------------------
+Window: 101
+Lookahead: 4801
+Initial Data Length: 284448
+Final Data Length: 295102
+Compression Ratio = 0.9638972287548034
+Time taken = 0.22153377532958984
+-----------------------------NEW-------------------------
+Window: 101
+Lookahead: 4901
+Initial Data Length: 284448
+Final Data Length: 295102
+Compression Ratio = 0.9638972287548034
+Time taken = 0.25966596603393555
+-----------------------------NEW-------------------------
+Window: 101
+Lookahead: 5001
+Initial Data Length: 284448
+Final Data Length: 295102
+Compression Ratio = 0.9638972287548034
+Time taken = 0.25476717948913574
+-----------------------------NEW-------------------------
+Window: 101
+Lookahead: 5101
+Initial Data Length: 284448
+Final Data Length: 295102
+Compression Ratio = 0.9638972287548034
+Time taken = 0.2700529098510742
+-----------------------------NEW-------------------------
+Window: 101
+Lookahead: 5201
+Initial Data Length: 284448
+Final Data Length: 295102
+Compression Ratio = 0.9638972287548034
+Time taken = 0.3003058433532715
+-----------------------------NEW-------------------------
+Window: 101
+Lookahead: 5301
+Initial Data Length: 284448
+Final Data Length: 295102
+Compression Ratio = 0.9638972287548034
+Time taken = 0.29096198081970215
+-----------------------------NEW-------------------------
+Window: 101
+Lookahead: 5401
+Initial Data Length: 284448

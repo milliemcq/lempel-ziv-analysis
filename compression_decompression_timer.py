@@ -5,19 +5,20 @@ import sys
 
 files_to_use = ['txt_files/poem.txt', 'txt_files/1984.txt', 'txt_files/alicewonder.txt']
 
-sys.stdout = open("compressionDecompressionTimers", "w")
+sys.stdout = open("compressionDecompressionTimers.txt", "w")
 print("test sys.stdout")
 
 for item in files_to_use:
     print(item)
     print("++++++++++++++++++++++++++++++++++++++++++++++++++Window Timers+++++++++++++++++++++++++++++++++++++++++++++++++++++")
-    i = 5000
 
-    for j in range(1, 100, 6000):
+    i = 255
+ 
+    for j in range(1, 6000, 100):
 
         print("-----------------------------NEW-------------------------")
-        print("Window: " + str(i))
-        print("Lookahead: " + str(j))
+        print("Window: " + str(j))
+        print("Lookahead: " + str(i))
         start = 0
         bitstr = ""
         bitstr = lz77_compressor(item, j, i)
@@ -32,14 +33,14 @@ for item in files_to_use:
     m = 5000
     print("++++++++++++++++++++++++++++++++++++++++++++++++++Lookahead Timers+++++++++++++++++++++++++++++++++++++++++++++++++++++")
 
-    for j in range(1, 300, 10):
+    for k in range(1, 255, 10):
 
         print("-----------------------------NEW -------------------------")
         print("Window: " + str(m))
-        print("Lookahead: " + str(j))
+        print("Lookahead: " + str(k))
         start = 0
         bitstr = ""
-        bitstr = lz77_compressor(item, m, j)
+        bitstr = lz77_compressor(item, m, k)
         start = time.time()
         lz77_decompressor(bitstr)
         finish = time.time()
