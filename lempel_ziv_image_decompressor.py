@@ -28,11 +28,11 @@ def lz77_image_decompressor(string_to_decompress):
     window = string_to_decompress[:16]
     window_size = int(window, 2)
     string_to_lookahead = string_to_decompress[16:]
-    lookahead = string_to_lookahead[:8]
+    lookahead = string_to_lookahead[:16]
     lookahead_size = int(lookahead, 2)
     # print(lookahead_size)
 
-    string_to_decompress = string_to_lookahead[8:]
+    string_to_decompress = string_to_lookahead[16:]
 
     window_bit_length = int(math.log(window_size, 2)) + 1
     lookahead_bit_length = int(math.log(lookahead_size, 2)) + 1
@@ -61,7 +61,7 @@ def lz77_image_decompressor(string_to_decompress):
         tuple = (first, second, third)
         list_of_tuples.append(tuple)
 
-    print(list_of_tuples)
+    #print(list_of_tuples)
     final = decompress_from_tuples(list_of_tuples)
     # print(final)
     return final

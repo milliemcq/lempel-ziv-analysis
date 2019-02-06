@@ -54,7 +54,7 @@ def lz77_compressor(file_name, window_size, lookahead_buffer):
   # print(data)
   # print(len(data))
   initial_data_length = len(data) * 8
-  # print("Initial Data Length: " + str(initial_data_length))
+  print("Initial Data Length: " + str(initial_data_length))
   i = 0
 
   final_list = []
@@ -108,12 +108,12 @@ def lz77_compressor(file_name, window_size, lookahead_buffer):
     final_list.append(best_found_tuple)
     i += (1 + best_lookahead_found)
 
-  print(final_list)
+  #print(final_list)
   final_bit_string = convert_to_bitarray(final_list, window_size, lookahead_buffer)
   # print(final_bit_string)
   # print("Final Data Length: " + str(len(final_bit_string)))
   print("Compression Ratio = " + str(initial_data_length / len(final_bit_string)))
-  print(final_bit_string)
+  #print(final_bit_string)
   return final_bit_string
 
 
