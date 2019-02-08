@@ -3,9 +3,9 @@ from lempel_ziv_decompressor import lz77_decompressor
 import time
 import sys
 
-files = ["txt_files/1984.txt", "txt_files/alicewonder.txt"]
+files = ["txt_files/1984.txt", "txt_files/.txt"]
 
-sys.stdout = open("outputs/NEWLOOKAHEADS.txt", "w")
+sys.stdout = open("outputs/.txt", "w")
 print("test sys.stdout")
 
 for item in files:

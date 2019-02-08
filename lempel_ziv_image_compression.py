@@ -109,8 +109,6 @@ def lz77_image_compressor(file_name, window_size, lookahead_buffer):
     i += (1 + best_lookahead_found)
 
 
-  for item in final_list:
-      print(item)
   final_bit_string = convert_to_bitarray(final_list, window_size, lookahead_buffer)
   # print(final_bit_string)
   # print("Final Data Length: " + str(len(final_bit_string)))

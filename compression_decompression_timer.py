@@ -3,9 +3,9 @@ from lempel_ziv_decompressor import lz77_decompressor
 import time
 import sys
 
-files_to_use = ['txt_files/poem.txt', 'txt_files/1984.txt', 'txt_files/alicewonder.txt']
+files_to_use = ['txt_files/', 'txt_files/1984.txt', 'txt_files/.txt']
 
-sys.stdout = open("compressionDecompressionTimers.txt", "w")
+sys.stdout = open(".txt", "w")
 print("test sys.stdout")
 
 for item in files_to_use:
