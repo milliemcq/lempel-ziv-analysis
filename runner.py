@@ -10,7 +10,7 @@ files = ['txt_files/poem.txt', 'txt_files/1984.txt', 'txt_files/alicewonder.txt'
 sys.stdout = open("outputs/LOOKAHEAD-CR-MORE-ACCURATE.txt", "w")
 print("test sys.stdout")
 
-"""
+
 print("{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{WINDOW EXPERIMENTS}}}}}}}}}}}}}}}}}}}}}}}}}}}}}]")
 for item in files:
     print("####################################### NEW FILE ###################################")
@@ -30,7 +30,7 @@ for item in files:
         decompressed_string = lz77_decompressor(compressed_string)
         finish_dec = time.time()
         print("DECOMPRESSION Time taken = " + str(finish_dec - start_dec))
-"""
+
 
 print("{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{Lookahead EXPERIMENTS}}}}}}}}}}}}}}}}}}}}}}}}}}}}}]")
 for item in files:
