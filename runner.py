@@ -31,7 +31,7 @@ for item in files:
         finish_dec = time.time()
         print("DECOMPRESSION Time taken = " + str(finish_dec - start_dec))
 
-
+"""
 print("{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{Lookahead EXPERIMENTS}}}}}}}}}}}}}}}}}}}}}}}}}}}}}]")
 for item in files:
     print(item)
@@ -52,3 +52,4 @@ for item in files:
         decompressed_string = lz77_decompressor(compressed_string)
         finish_dec = time.time()
         print("DECOMPRESSION Time taken = " + str(finish_dec - start_dec))
+        """
