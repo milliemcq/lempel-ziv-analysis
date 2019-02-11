@@ -5,6 +5,7 @@
 # USAGE: python3 LZ78.py '<string to encode>'
 
 import sys
+import time
 
 
 def compress(data):
@@ -54,11 +55,24 @@ def to_bits(data, h=False):
 
 
 files = ['txt_files/poem.txt', 'txt_files/1984.txt', 'txt_files/alicewonder.txt']
+sys.stdout = open("outputs/LOOKAHEAD-CR-MORE-ACCURATE.txt", "w")
+print("test sys.stdout")
 
+for item in files:
+    try:
+        input_file = open(item, 'r')
+        data = input_file.read()
+        # print(data)
+    except IOError:
+        print('Could not open input file ...')
+    initial_data_size = len(data) * 8
 
-if __name__ == '__main__':
-    data = "ABRACADABRA"
+    start = time.time()
     comp_data = compress(data)
-    print(comp_data)
-    print(to_bits(comp_data, True))
-    print(to_bits(comp_data))
+    final_string = to_bits(comp_data)
+    finish = time.time()
+
+    final_length = len(final_string)
+    cr = initial_data_size/ final_length
+    print("Compression Ratio: " + str(cr))
+    print("COMPRESSION Time taken = " + str(finish - start))

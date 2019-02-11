@@ -7,7 +7,7 @@ import sys
 files = ['txt_files/poem.txt', 'txt_files/1984.txt', 'txt_files/alicewonder.txt']
 
 
-sys.stdout = open("outputs/LOOKAHEAD-CR-MORE-ACCURATE.txt", "w")
+sys.stdout = open("outputs/WINDOW-FURTHER.txt", "w")
 print("test sys.stdout")
 
 
@@ -16,7 +16,7 @@ for item in files:
     print("####################################### NEW FILE ###################################")
     i = 255
 
-    for j in range(1, 7000, 100):
+    for j in range(6500, 20000, 500):
 
         print("-----------------------------NEW-------------------------")
         print("Window: " + str(j))
