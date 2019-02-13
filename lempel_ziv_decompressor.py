@@ -94,7 +94,7 @@ def lz77_decompressor(string_to_decompress):
     print(bytes)
 
     # print(final)
-    return final
+    return bytes
 
 
 
