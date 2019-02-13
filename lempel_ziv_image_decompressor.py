@@ -61,7 +61,7 @@ def lz77_image_decompressor(string_to_decompress):
         tuple = (first, second, third)
         list_of_tuples.append(tuple)
 
-    #print(list_of_tuples)
+    print("List of T's: " + str(list_of_tuples))
     final = decompress_from_tuples(list_of_tuples)
     # print(final)
     return final

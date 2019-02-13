@@ -1,6 +1,7 @@
 import math
 import time
-from bitarray import bitarray
+
+"""
 
 def get_string(current_string, back_space, length, final_char):
     return_string = ""
@@ -22,6 +23,29 @@ def decompress_from_tuples(list_of_tuples):
         else:
             final_string += get_string(final_string, item[0], item[1], item[2])
     return final_string
+
+"""
+
+def get_list(current_string, back_space, length, final_char):
+    return_list = []
+    start = len(current_string) - back_space
+    end = len(current_string) - back_space + length
+    return_list += current_string[start:end]
+
+    return_list.append(final_char)
+    #print(return_string)
+    return return_list
+
+
+
+def decompress_from_tuples(list_of_tuples):
+    final_list = []
+    for item in list_of_tuples:
+        if item[0] == 0:
+            final_list.append(item[2])
+        else:
+            final_list.extend(get_list(final_list, item[0], item[1], item[2]))
+    return final_list
 
 
 
@@ -63,8 +87,12 @@ def lz77_decompressor(string_to_decompress):
         tuple = (first, second, third)
         list_of_tuples.append(tuple)
 
-    #print(list_of_tuples)
     final = decompress_from_tuples(list_of_tuples)
+
+    bytes = bytearray(final)
+    #bytes.decode()
+    print(bytes)
+
     # print(final)
     return final
 

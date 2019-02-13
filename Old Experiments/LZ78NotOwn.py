@@ -55,7 +55,7 @@ def to_bits(data, h=False):
 
 
 files = ['txt_files/poem.txt', 'txt_files/1984.txt', 'txt_files/alicewonder.txt']
-sys.stdout = open("outputs/LOOKAHEAD-CR-MORE-ACCURATE.txt", "w")
+sys.stdout = open("outputs/Lz78-output.txt", "w")
 print("test sys.stdout")
 
 for item in files:
