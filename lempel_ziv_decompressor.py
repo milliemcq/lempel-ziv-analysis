@@ -91,7 +91,7 @@ def lz77_decompressor(string_to_decompress):
 
     bytes = bytearray(final)
     #bytes.decode()
-    print(bytes)
+    #print(bytes)
 
     # print(final)
     return bytes

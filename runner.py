@@ -7,16 +7,30 @@ import sys
 files = ['txt_files/poem.txt', 'txt_files/1984.txt', 'txt_files/alicewonder.txt']
 
 
-sys.stdout = open("outputs/WINDOW-FURTHER.txt", "w")
+sys.stdout = open("outputs/WINDOW-OPTIMUM.txt", "w")
 print("test sys.stdout")
 
 
 print("{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{WINDOW EXPERIMENTS}}}}}}}}}}}}}}}}}}}}}}}}}}}}}]")
 for item in files:
     print("####################################### NEW FILE ###################################")
-    i = 255
+    i = 30
 
-    for j in range(6500, 20000, 500):
+    print("-----------------------------NEW-------------------------")
+    print("Window: " + str(200))
+    print("Lookahead: " + str(i))
+    start = 0
+    start = time.time()
+    compressed_string = lz77_compressor(item, 200, i)
+    finish = time.time()
+    print("COMPRESSION Time taken = " + str(finish - start))
+    start_dec = time.time()
+    decompressed_string = lz77_decompressor(compressed_string)
+    finish_dec = time.time()
+    print("DECOMPRESSION Time taken = " + str(finish_dec - start_dec))
+
+    """
+    for j in range(1, 7001, 100):
 
         print("-----------------------------NEW-------------------------")
         print("Window: " + str(j))
@@ -31,7 +45,6 @@ for item in files:
         finish_dec = time.time()
         print("DECOMPRESSION Time taken = " + str(finish_dec - start_dec))
 
-"""
 print("{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{Lookahead EXPERIMENTS}}}}}}}}}}}}}}}}}}}}}}}}}}}}}]")
 for item in files:
     print(item)

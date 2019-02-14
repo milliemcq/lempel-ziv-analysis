@@ -54,11 +54,12 @@ def to_bits(data, h=False):
     return result
 
 
-files = ['txt_files/poem.txt', 'txt_files/1984.txt', 'txt_files/alicewonder.txt']
+files = ['txt_files/introductionCDEnglish.txt', 'txt_files/introductionCDFrench.txt', 'txt_files/introductionCDEnglish.txt', 'txt_files/natureCDEnglish.txt', 'txt_files/natureCDFrench.txt', 'txt_files/variabilityCDEnglish.txt', 'txt_files/variabilityCDFrench.txt',]
 sys.stdout = open("outputs/Lz78-output.txt", "w")
 print("test sys.stdout")
 
 for item in files:
+    print(item)
     try:
         input_file = open(item, 'r')
         data = input_file.read()

@@ -50,7 +50,7 @@ def lz77_compressor(file_name, window_size, lookahead_buffer):
   except IOError:
     print('Could not open input file ...')
 
-  print(data)
+  #print(data)
 
   initial_data_length = len(data) * 8
   print("Initial Data Length: " + str(initial_data_length))
@@ -118,7 +118,7 @@ def lz77_compressor(file_name, window_size, lookahead_buffer):
 
 
 
-final = lz77_compressor("txt_files/1984.txt", 500, 255)
+#final = lz77_compressor("txt_files/1984.txt", 500, 255)
 
 """
 to_transform = []
